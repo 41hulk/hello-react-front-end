@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-const FETCH_DATA = "FETCH_DATA";
+const FETCH_DATA = 'FETCH_DATA';
 
 const initialState = {
   greetings: [],
@@ -12,7 +12,7 @@ export const getData = (payload) => ({
 });
 
 export const getGreeting = () => async (dispatch) => {
-  await axios("http://127.0.0.1:3005/api/v1/greetings")
+  await axios('http://127.0.0.1:3005/api/v1/greetings')
     .then((response) => response.json())
     .then((data) => {
       dispatch(getData(data));
