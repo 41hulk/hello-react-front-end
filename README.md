@@ -1,70 +1,179 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Available Scripts
+Modify this file to match your project and remove sections that don't apply.
 
-In the project directory, you can run:
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-### `npm start`
+After you're finished please remove all the comments and instructions!
+-->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="center">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <img src="./src/assests/images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-### `npm test`
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
+<!-- TABLE OF CONTENTS -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Hello Rails Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is a project to learn how to use React with Rails by Implementing a connection between a Ruby on Rails back-end and React front-end. This project contains the fronted part of it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
+- Ruby
+- Rails
+- Postgresql
+- Linters
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- This app has API end points
+- It fetches from the API and renders the data
+- It renders random greetings on refreshing and navigating to the './ message
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Live Demo will be available 
 
-## Learn More
+[Live Demo Link](localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
+-To get a local copy up and running follow these simple example steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+- A Command Line Interface.
+- Having Ruby installed.
+- Setup Rails
+- Postgresql
+- A code editor like Visual Studio Clone.
+- Git installed.
+- 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To check if you have Git, Postgres and Ruby installed you can use the commands below:
 
-### Analyzing the Bundle Size
+ ```sh
+   $ git --version
+   $ ruby --version && irb
+   ```
+If you don't have Ruby, you can find a complete list of ways to install Ruby, including using third-party tools like rvm, see:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(https://www.ruby-lang.org/en/downloads/)
+### 🛠 Installation & Set Up
 
-### Making a Progressive Web App
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+- Open the [Repository Link]https://github.com/41hulk/hello-rails-backend.git of this project in GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Once the files are on your machine, open capstone-ruby folder in [Visual Studio Code](https://code.visualstudio.com/).
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone this repository to your desired folder:
+$ git clone
 
-### `npm run build` fails to minify
+ https://github.com/41hulk/hello-react-front-end.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Link to backend repository
+    https://github.com/41hulk/hello-rails-backend.git
+
+#### Link to Frontend repository pull request
+
+    https://github.com/41hulk/hello-react-front-end/pull/1
+
+### Install
+
+` Navigate to the created folder.
+    - Initialize your project with Git.
+    - Make sure that your project has Postgres database set up.
+    - Run rails server and visi thttp://127.0.0.1:3005/ in your browser!
+    git clone https://github.com/41hulk/hello-react-front-end
+    
+     - cd hello-react-front-end
+     - npm install
+     - npm start
+     
+    ### run the following in your terminal:
+    - gem install rails
+    - gem install pg
+    - bundle install (use this whenever you want add a gem in your gem file)
+    - rails db:create
+    - change your database password to suit yours in database.yml `
+
+
+
+    To check linters locally, use
+
+    `$ rubocop`
+    `$ npx stylelint "**/*.{css,scss}"`
+    Once you have the project correctly set up, run
+
+    `$ bin/rails db:setup`
+
+  
+
+### Usage
+--Once you have your repository cloned on your machine, feel free to modify it as needed.
+- To add your own page
+
+  
+## Authors
+👤 **Ntare Guy**
+
+- GitHub: [@41hulk](https://github.com/41hulk)
+- Twitter: [@ntare_guy]()
+- LinkedIn: [@Ntare Guy](linkedin.com/in/natasha-chirombe-1531aa17b)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Web Design
+All the template colors, font, and layout distribution for the whole project were designed by Gregoire Vella on Behance. A link to the project can be found here. Check Gregoire for more amazing GUI and Graphic designs!
+
+-Hat tip to all documentations used
+-Inspiration 
+
+
+## ❓ FAQ
+
+
+#### [Question_1] Do I need to have a program to manage the database. 
+
+##### [Answer_1] Yes you need postgesql or sqllite ,check installation online.
+
+#### [Question_2] Can I access the owner database .
+
+##### [Answer_2]No because its on their local database .
+
+## 📝 License
+This project is MIT licensed.
+
+NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
